@@ -36,7 +36,7 @@ public class HelloController implements Initializable {
 
     @FXML
     public void onManuItemDepartmentAction() {
-        System.out.println("onManuItemDepartmentAction");
+        loadView("DepartmentList.fxml");
     }
 
     @FXML
