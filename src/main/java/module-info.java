@@ -6,4 +6,6 @@ module com.altatech.workshopjavafxjdbc {
 
     opens com.altatech.workshopjavafxjdbc to javafx.fxml;
     exports com.altatech.workshopjavafxjdbc;
+    opens model.entities to javafx.base;
 }
+
