@@ -47,3 +47,6 @@ build/
 nbbuild/ 
 dist/ 
 nbdist/
+
+# Intellij idea
+.settings/
