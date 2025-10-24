@@ -6,6 +6,7 @@ module com.altatech.workshopjavafxjdbc {
     requires java.desktop;
 
 
+
     opens com.altatech.workshopjavafxjdbc to javafx.fxml;
     exports com.altatech.workshopjavafxjdbc;
     opens model.entities to javafx.base;
