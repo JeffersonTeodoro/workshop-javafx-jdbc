@@ -4,7 +4,7 @@ module com.altatech.workshopjavafxjdbc {
     requires jdk.compiler;
     requires java.sql;
     requires java.desktop;
-
+    requires mysql.connector.j;
 
 
     opens com.altatech.workshopjavafxjdbc to javafx.fxml;
